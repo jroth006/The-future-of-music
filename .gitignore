@@ -1,0 +1,12 @@
+
+## Ignore the data folder
+data/
+
+## Ignore capstone project w/ API Key Info
+Capstone_Project.ipynb
+
+## Ignore any API tokens
+.cache*
+
+## Ingore checkpoints
+.ipynb_checkpoints
