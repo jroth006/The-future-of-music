@@ -2,11 +2,15 @@
 ## Ignore the data folder
 data/
 
-## Ignore capstone project w/ API Key Info
-Capstone_Project.ipynb
-
 ## Ignore any API tokens
-.cache*
+*.cache
+
+## Ignore pycache
+
+*.pyc
+
+## Ignore API script
+API_Info.py
 
 ## Ingore checkpoints
 .ipynb_checkpoints
