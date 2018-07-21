@@ -6,6 +6,7 @@ data/
 *.cache
 
 ## Ignore pycache
+__pycache__
 
 *.pyc
 

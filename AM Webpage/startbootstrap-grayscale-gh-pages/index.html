@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Introducing: Arctic Monkeys</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Spotify Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Past Albums</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#songcompare">Song Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#future">Future Sounds</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#final_compare">Final Comparison</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Arctic Monkeys</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">An English rock band formed in 2002 in High Green, a suburb of Sheffield. The band consists of Alex Turner, Matt Helders, Jamie Cook and Nick O'Malley.</h2>
+          <p class="text-white-50"> Together, we'll explore data from the Spotify API to learn more about their career to this point, and project where they might head in the future.</p>
+        </br>
+        </br>
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Learn more!</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Spotify Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">What data does Spotify offer?</h2>
+            <h5 class="text-white mb-4">Spotify offers a lot of great data - everything from song length to the start and stop time of each measure. Here are a few important features to understand:<br /></h5>
+            <p class="text-white-50"><b>Loudness</b> - The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks.<br />
+              <br />
+              <b>Energy</b> - Represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale.<br />
+              <br />
+              <b>Danceability</b> - Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.<br />
+              <br />
+              <b>Beats per minute</b> - A calculated field that takes the total number of beats in a song, and divides the count by the length of the song (in minutes).<br /></p>
+              <p></p>
+              <a href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">Here's a direct link to the Spotify site for additional definitions</a>.</p>
+          </div>
+        </div>
+        <img src="img/spotify.png" class="img-fluid" style="max-width: 55%" alt="">
+      </br>
+          </br>
+              </br>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-center top text-lg-center">
+              <h2 class="text-black-50"><b>A scroll through history</b></h2>
+            </br>
+              <p class="mb-0 text-black-50">Continue scrolling to see how the Arctic Monkey's have changed their sound over the past decade - particularly the huge changes in sound found in <b>Humbug</b> and <b>AM</b></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Whatever People Say I Am, That's What I'm Not -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Whatever People Say I Am, That's What I'm Not</b> (2006)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Whatever People Say I Am, That's What I'm Not.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/album/0ndGMh4twJNzPpr5XtHTR2" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Favourite Worst Nightmare -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Favourite Worst Nightmare</b> (2007)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Favourite Worst Nightmare (Standard Version).png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/album/6rsQnwaoJHxXJRCDBPkBRw" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-2 mb-lg-0">
+        </div>
+
+        <!-- Humbug -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Humbug</b> (2009)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Humbug.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/album/5ZnOKznPxZTWuMusR4tmGG" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Suck It and See -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Suck It and See</b> (2011)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Suck It and See.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/album/2KhJyDQAtauN6plT5PkfnV" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- AM -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>AM</b> (2013)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/AM.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/album/78bpIziExqiI9qztvNFlQu" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tranquility Base Hotel & Casino -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Tranquility Base Hotel & Casino</b> (2018)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Tranquility Base Hotel & Casino.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/album/1jeMiSeSnNS0Oys375qegp" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TSNE -->
+    <section id="songcompare" class="projects-section bg-dark">
+        <div class="container">
+          <div class="row justify-content-center mb-2 mb-lg-0">
+            <div class="col-lg-12">
+              <div class="project-text w-100 h-175 my-auto text-center top text-lg-center">
+                <h2 class="text-white-50"><b>But - how diverse is their music?</b></h2>
+              </br>
+              </br>
+                <p class="mb-0 text-white-50">Great question! Let's explore the diversity of music within each album.
+                </br>
+                </br>
+                <p class="mb-0 text-white-50">The graphic below should help get us started. You'll see a bunch of round dots, each representing a song.
+                  There's an interactive legend on the right-hand side that will allow you to hide/show albums, just by clicking on the name!
+                </br>
+                </br>
+                <p class="mb-0 text-white-50">The Spotify album features have been <i><strong>normalized</strong></i>, which allows us to compare the relationship between different tracks and albums.
+                  The distance between the tracks doesn't carry any significance, or their location,
+                  <span style="text-decoration: underline;">but tracks are most similar to other tracks that appear immediately around them.</span>
+                </br>
+                </br>
+                <p class="mb-0 text-white-50"> This plot brings some interesting insight into the evolution of their music. If you filter on their early albums,
+                  <strong>Whatever People Say I Am, That's What I'm Not</strong> and
+                  <strong>Favourite Worst Nightmare</strong>, you start to see that their early albums were more tightly <i>clustered</i> together, indicating less diversity in sound
+                  within each album. This has changed significantly over the following albums.
+
+
+
+              </div>
+            </div>
+          </div>
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-12 col-lg-12">
+            </div>
+            <script
+                src="/Users/justin/Code/AM Webpage/startbootstrap-grayscale-gh-pages/am_scripts/am_script.js"
+                id="980918ea-5ac9-4591-8989-9c0640591015"
+                data-bokeh-model-id="6a5f22f1-71ef-4fc2-8cda-5c69b459985a"
+                data-bokeh-doc-id="b79bc79a-d699-48c8-b627-1cead77d87ab"
+            ></script>
+          </div>
+        </section>
+
+    <!-- Projects Section -->
+    <section id="future" class="projects-section bg-light">
+      <div class="container">
+
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-center top text-lg-center">
+              <h2 class="text-black-50"><b>Which direction could the Arctic Monkeys head next?</b></h2>
+            </br>
+              <p class="mb-0 text-black-50">Using the information from the Spotify API, we can start to project where their music is headed.
+                After normalizing the recommendations and the original tracks, we can feed those numbers back into the Spotify API and collect popular songs that match the Arctic Monkeys projected sound,
+                start to get a feel for what their next album might sound like!</p>
+              </br>
+              <p class="mb-0 text-black-50">A common theme in the recommendations is an expected continuation of loud music with a predictable musical pattern, leading to high danceability.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mr. Brightside -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Mr. Brightside</b> (The Killers)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Mr. Brightside_Recommended.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/track/7oK9VyNzrYvRFo7nQEYkWN" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Naive -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Naive</b> (The Kooks)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Naive_Recommended.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/track/2RUhtNBh43RtSg0WBPPq3m" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-2 mb-lg-0">
+        </div>
+
+        <!-- Seven Nation Army -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Seven Nation Army</b> (The White Stripes)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Seven Nation Army_Recommended.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/track/7i6r9KotUPQg3ozKKgEPIN" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-2 mb-lg-0">
+        </div>
+
+        <!-- Electric Feel -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Electric Feel</b> (MGMT)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Electric Feel_Recommended.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/track/3FtYbEfBqAlGO46NUDQSAt" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-2 mb-lg-0">
+        </div>
+
+        <!-- Sex on Fire -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Sex on Fire</b> (Kings of Leon)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Sex on Fire_Recommended.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/track/0ntQJM78wzOLVeCUAW7Y45" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-2 mb-lg-0">
+        </div>
+
+        <!-- Song 2 -->
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-12">
+            <div class="project-text w-100 h-175 my-auto text-bottom center text-lg-left">
+              <h4 class="text-black-50"><b>Song 2</b> (Blur)</h4>
+              <hr class="d-none d-lg-block mb-0 ml-0">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 mb-lg-0">
+          <div class="col-lg-1">
+          </div>
+          <div class="col-lg-5">
+            <img class="center-block" src="img/Song 2 - 2012 Remastered Version_Recommended.png" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+            <iframe src="https://open.spotify.com/embed/track/1FTSo4v6BOZH9QxKc3MbVM" width="525" height="300" frameborder="0" allowtransparency="true"></iframe>
+              <div class="d-flex h-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-2 mb-lg-0">
+        </div>
+        </div>
+      </section>
+
+    <!-- TSNE for recommended tracks -->
+    <section id="final_compare" class="projects-section bg-dark">
+        <div class="container">
+          <div class="row justify-content-center mb-2 mb-lg-0">
+            <div class="col-lg-12">
+              <div class="project-text w-100 h-175 my-auto text-center top text-lg-center">
+                <h2 class="text-black-50"><b>Where do these recommended songs fit in their current discography?</b></h2>
+              </br>
+              </br>
+                <p class="mb-0 text-white-50">Now you're asking the right questions! Let's replot our new data, including the recommended songs.
+                </br>
+                </br>
+                <p class="mb-0 text-white-50">Once again, you'll see a bunch of round dots, each representing a song. You can learn the song title by hovering.
+                  There's an interactive legend on the right-hand side that will allow you to hide/show albums, just by clicking on the name!
+                </br>
+                </br>
+                <p class="mb-0 text-white-50">Another reminder - the Spotify album features have been <i><strong>normalized</strong></i>, which allows us to compare the relationship between different albums.
+                  The distance between the tracks doesn't carry any significance, but tracks are most similar to other tracks that appear immediately around them.
+              </div>
+            </div>
+          </div>
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-12 col-lg-12">
+            </div>
+            <script
+                src="/Users/justin/Code/AM Webpage/startbootstrap-grayscale-gh-pages/am_scripts/am_rec_script.js"
+                id="eb986c52-f9ec-4375-81f5-557a217780e4"
+                data-bokeh-model-id="d62ba742-46fc-4ae9-808d-aa3dffadbc19"
+                data-bokeh-doc-id="57c51ea0-5bda-4828-a8d7-bd49a457bced"
+            ></script>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="#">jroth006@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Github</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="https://github.com/jroth006">My GitHub</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">LinkedIn</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="https://www.linkedin.com/in/justin-rothbart-2b1a4438/">Find me on LinkedIn!</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Thanks to Spotify and Bootstrap for making my life easier in my time of need!
+      </div>
+    </footer>
+
+<!-- Import -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/font-awesome/js/all.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+    <!-- Importing Bokeh Plot Info
+    <link
+      href="https://cdn.pydata.org/bokeh/release/bokeh-x.y.z.min.css"
+      rel="stylesheet" type="text/css">
+
+    <script src="https://cdn.pydata.org/bokeh/release/bokeh-x.y.z.min.js"></script>-->
+
+  </body>
+
+</html>

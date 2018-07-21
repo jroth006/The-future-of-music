@@ -1,0 +1,14 @@
+.about-section {
+  padding-top: 10rem;
+  background: linear-gradient(to bottom, #{fade-out($black, .2)} 100%,#{fade-out($black, .1)} 75%,$black 0% 100%);
+  .featured-text {
+    padding: 2rem;
+    @media (min-width: 992px) {
+      padding: 0 0 0 2rem;
+      border-left: 0.5rem solid $primary;
+    }
+
+  p {
+    margin-bottom: 5rem;
+  }
+}

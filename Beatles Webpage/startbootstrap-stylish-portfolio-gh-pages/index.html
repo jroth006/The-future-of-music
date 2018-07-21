@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>We All Live: A Yellow Submarine Story</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+      </a>
+      <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Back to the Top!</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#intro">Introduction</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#spotify">Spotify API</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#gallery">Features Gallery</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#comparison">Song Comparison</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#recommend">Recommended Tracks</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#rec_comparison">Recommendation Comparison</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+      </nav>
+
+    <!-- Top of Page (Beatles picture) -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h3 class="mb-5">
+          <em></em>
+        </h3>
+      </div>
+      <div class="overlay"></div>
+    </header>
+
+    <!-- Introduction -->
+    <section class="content-section bg-light" id="intro">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>Welcome to our journey!</h2>
+            <p class="lead mb-5">We're going to dive deep into the career of The Beatles, from the albums that
+            ushered in Beatlemania to the psychedelic sounds of the Magical Mystery Tour. We'll also discover how
+          their solo work fit in with their previous albums, and what their collective sound might've sounded like.</p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Let's Dive In!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spotify API Information -->
+    <section class="content-section bg-primary text-white text-center" id="spotify">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Spotify API</h3>
+          <h2 class="mb-5">What information does Spotify provide?</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-microphone"></i>
+            </span>
+            <h4>
+              <strong>Acousticness</strong>
+            </h4>
+            <p class="text-faded mb-0">The overall acousticness of a track, related to tracks that contain minimal instrumentalness.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-music-tone"></i>
+            </span>
+            <h4>
+              <strong>Danceability</strong>
+            </h4>
+            <p class="text-faded mb-0">Danceability describes how suitable a track is for dancing based
+              on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-energy"></i>
+            </span>
+            <h4>
+              <strong>Energy</strong>
+            </h4>
+            <p class="text-faded mb-0">Represents a perceptual measure of intensity and activity.
+              Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale.</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-equalizer"></i>
+            </span>
+            <h4>
+              <strong>Bars & Section Counts</strong>
+            </h4>
+            <p class="text-faded mb-0">A calculated field that takes the total number of bars in a song
+              and sections in a song, often correlated to song length and complexity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beatles Album Gallery -->
+    <section class="content-section" id="gallery">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5">Album Gallery</h2>
+          <p class="lead mb-5">Click on the album covers below to explore the song features for each album, along with
+            samples of each track. The albums have been organized chronologically, starting from the top left and moving right.</p>
+          </div>
+          <div class="row no-gutters">
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".please">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/pleasepleaseme.jpg" alt="">
+              <!-- Modal - Please Please Me -->
+              <a class="modal fade please" id="PleasePleaseMe" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Please Please Me (1963)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Please Please Me (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/3KzAvEXcqJKBF97HrXwlgf" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <div class="col-lg-3">
+              <a class="portfolio-item" data-toggle="modal" data-target=".withthebeatles">
+                <span class="caption">
+                </span>
+                <img class="img-fluid" src="img/album_cover/withthebeatles.jpg" alt="">
+                <!-- Modal - With The Beatles -->
+                <div class="modal fade withthebeatles" id="WithTheBeatles" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <!-- Modal content-->
+                    <div class="modal-content" role='document'>
+                      <div class="modal-header">
+                        <h4 class="modal-title">With The Beatles (1963)</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <img class="left-block" src="img/radar_graphs/With The Beatles (Remastered).png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                          </div>
+                          <div class="col-lg-5">
+                            <iframe src="https://open.spotify.com/embed/album/1aYdiJk6XKeHWGO3FzHHTr" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <div class="col-lg-3">
+              <a class="portfolio-item" data-toggle="modal" data-target=".hardsdaynight">
+                <span class="caption">
+                </span>
+                <img class="img-fluid" src="img/album_cover/aharddaysnight.jpg" alt="">
+                <!-- Modal - A Hard Day's Night -->
+                <div class="modal fade hardsdaynight" id="HardsDayNight" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <!-- Modal content-->
+                    <div class="modal-content" role='document'>
+                      <div class="modal-header">
+                        <h4 class="modal-title">A Hard Day's Night (1964)</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <img class="left-block" src="img/radar_graphs/A Hard Day's Night (Remastered).png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                          </div>
+                          <div class="col-lg-5">
+                            <iframe src="https://open.spotify.com/embed/album/6wCttLq0ADzkPgtRnUihLV" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".beatlesforsale">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/beatlesforsale.jpg" alt="">
+              <!-- Modal - Beatles For Sale -->
+              <div class="modal fade beatlesforsale" id="BeatlesForSale" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Beatles For Sale (1964)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Beatles For Sale (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/1vANZV20H5B4Fk6yf7Ot9a" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="row no-gutters">
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".help">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/help.jpg" alt="">
+              <!-- Modal - Help! -->
+              <div class="modal fade help" id="Help" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Help! (1965)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Help! (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/0PT5m6hwPRrpBwIHVnvbFX" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".rubbersoul">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/rubbersoul.jpg" alt="">
+              <!-- Modal - Rubber Soul -->
+              <div class="modal fade rubbersoul" id="RubberSoul" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Rubber Soul (1965)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Rubber Soul (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/50o7kf2wLwVmOTVYJOTplm" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".revolver">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/revolver.jpg" alt="">
+              <!-- Modal - Revolver -->
+              <div class="modal fade revolver" id="Revolver" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Revolver (1966)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Revolver (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/3PRoXYsngSwjEQWR5PsHWR" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".sgtpeppers">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/sgtpeppers.jpg" alt="">
+              <!-- Modal - Sgt. Pepper's Lonely Hearts Club Band -->
+              <div class="modal fade sgtpeppers" id="SgtPeppers" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Sgt. Pepper's Lonely Hearts Club Band (1967)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Sgt. Pepper's Lonely Hearts Club Band (Deluxe Edition).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/6QaVfG1pHYl1z15ZxkvVDW" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="row no-gutters">
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".magicalmysterytour">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/magicalmysterytour.jpg" alt="">
+              <!-- Modal - Magical Mystery Tour -->
+              <div class="modal fade magicalmysterytour" id="Magical Mystery Tour" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Magical Mystery Tour (1967)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Magical Mystery Tour (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/2BtE7qm1qzM80p9vLSiXkj" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".whitealbum">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/whitealbum.jpg" alt="">
+              <!-- Modal - White Album -->
+              <div class="modal fade whitealbum" id="White Album" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">The Beatles (White Album) (1968)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/The Beatles (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/1klALx0u4AavZNEvC4LrTL" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+                <a class="portfolio-item" data-toggle="modal" data-target=".yellow_sub">
+                  <span class="caption">
+                  </span>
+                  <img class="img-fluid" src="img/album_cover/yellowsubmarine.jpg" alt="">
+                  <!-- Modal - Yellow Submarine -->
+                  <div class="modal fade yellow_sub" id="YellowSub" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                      <!-- Modal content-->
+                      <div class="modal-content" role='document'>
+                        <div class="modal-header">
+                          <h4 class="modal-title">Yellow Submarine (1969)</h4>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-lg-5">
+                              <img class="left-block" src="img/radar_graphs/Yellow Submarine (Remastered).png" alt="">
+                            </div>
+                            <div class="col-lg-2">
+                            </div>
+                            <div class="col-lg-5">
+                              <iframe src="https://open.spotify.com/embed/album/1gKZ5A1ndFqbcrWtW85cCy" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".abbeyroad">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/abbeyroad.jpg" alt="">
+              <!-- Modal - Magical Mystery Tour -->
+              <div class="modal fade abbeyroad" id="Abbey Road" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Abbey Road (1969)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Abbey Road (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/0ETFjACtuP2ADo6LFhL6HN" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="row no-gutters">
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".letitbe">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/letitbe.jpg" alt="">
+              <!-- Modal - Let It Be -->
+              <div class="modal fade letitbe" id="LetItBe" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Let It Be (1970)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Let It Be (Remastered).png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/album/0jTGHV5xqHPvEcwL8f6YU5" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item">
+              <img class="img-fluid" src="img/album_cover/white_square.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item">
+              <img class="img-fluid" src="img/album_cover/white_square.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item">
+              <img class="img-fluid" src="img/album_cover/white_square.png" alt="">
+            </a>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        </section>
+
+    <!-- TSNE -->
+    <section class="callout" id="comparison">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5"><b>How diverse is their music?</b></h2>
+        </br>
+        </br>
+          <p class="mb-0 text-black-50">Great question! Let's explore the diversity of music within each album.
+          </br>
+          </br>
+          <p class="mb-0 text-black-50">The graphic below should help get us started. You'll see a bunch of round dots, each representing a song.
+            There's an interactive legend on the right-hand side that will allow you to hide/show albums, just by clicking on the name!
+          </br>
+          </br>
+          <p class="mb-0 text-black-50">The Spotify album features have been <i><strong>normalized</strong></i>, which allows us to compare the relationship between different tracks and albums.
+            The distance between the tracks doesn't carry any significance, or their location,
+          <span style="text-decoration: underline;">but tracks are most similar to other tracks that appear immediately around them.</span>
+          </br>
+          </br>
+          <p class="mb-0 text-black-50"> This plot highlights how similar and clusered their music was at the beginning of their career. You can see that
+            this changed over time - especially as they became more experimental with their sound, both within and between albums.
+          </br>
+              <script
+              src="/Users/justin/Code/Beatles Webpage/startbootstrap-stylish-portfolio-gh-pages/beatles_scripts/beatles_script.js"
+              id="a83f9633-25d8-4352-9ea4-b1ec00c8ff27"
+              data-bokeh-model-id="d4fd7f3d-def6-4dbe-bdfc-6f25fcaa9c60"
+              data-bokeh-doc-id="8e00fec5-e319-4cd6-8a14-bc40cb8d8024"
+              ></script>
+            </div>
+    </section>
+
+    <!-- Recommended Music -->
+    <section class="content-section" id="recommend">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h2 class="mb-5">Recommendation Gallery</h2>
+          <p class="lead mb-5">Using the information from the Spotify API, we can start to project where their music is headed.
+            After normalizing the recommendations and the original tracks, we can feed those numbers back into the Spotify API and collect popular songs that match The Beatle's projected sound,
+            start to get a feel for what their next album might sound like!</p>
+          </br>
+          <p class="lead mb-5">Many of the projected tracks are songs that were released before The Beatles broke up, which shows how much The Beatles were impacted by their contemporaries.
+          The bottom-right track is #9 Dream - written by Mr. John Lennon himself!</p>
+          </div>
+          <div class="row no-gutters">
+          <div class="col-lg-3">
+              <a class="portfolio-item" data-toggle="modal" data-target=".ferrycrossthemersey">
+                <span class="caption">
+                </span>
+                <img class="img-fluid" src="img/album_cover/rec_album_cover/youllneverwalkalone.jpg" alt="">
+                <!-- Modal - Ferry Cross The Mersey -->
+                <div class="modal fade ferrycrossthemersey" id="FerryCrossTheMersey" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <!-- Modal content-->
+                    <div class="modal-content" role='document'>
+                      <div class="modal-header">
+                        <h4 class="modal-title">Ferry Cross The Mersey (1965)</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <img class="left-block" src="img/radar_graphs/Ferry Cross the Mersey.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                          </div>
+                          <div class="col-lg-5">
+                            <iframe src="https://open.spotify.com/embed/track/4aSw1QJIMwYSoDEgzgdCJL" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".heartofstone">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/rec_album_cover/rollingstonesnow.jpg" alt="">
+              <!-- Modal - Heart Of Stone -->
+              <div class="modal fade heartofstone" id="HeartOfStone" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Heart Of Stone (1965)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Heart Of Stone_Recommended.png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/track/6HDakUMdK2KcQZZ4TwyAbB" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+              <a class="portfolio-item" data-toggle="modal" data-target=".goodvibrations">
+                <span class="caption">
+                </span>
+                <img class="img-fluid" src="img/album_cover/rec_album_cover/smileysmile.jpg" alt="">
+                <!-- Modal - Good Vibrations -->
+                <div class="modal fade goodvibrations" id="GoodVibrations" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <!-- Modal content-->
+                    <div class="modal-content" role='document'>
+                      <div class="modal-header">
+                        <h4 class="modal-title">Good Vibrations (1966)</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <img class="left-block" src="img/radar_graphs/Good Vibrations (Stereo)_Recommended.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                          </div>
+                          <div class="col-lg-5">
+                            <iframe src="https://open.spotify.com/embed/track/6ekY52h4HwNCHgCkiHTVaR" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <div class="col-lg-3">
+              <a class="portfolio-item" data-toggle="modal" data-target=".theweight">
+                <span class="caption">
+                </span>
+                <img class="img-fluid" src="img/album_cover/rec_album_cover/bigpink.jpg" alt="">
+                <!-- Modal - The Weight -->
+                <div class="modal fade theweight" id="TheWeight" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <!-- Modal content-->
+                    <div class="modal-content" role='document'>
+                      <div class="modal-header">
+                        <h4 class="modal-title">The Weight (1968)</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <img class="left-block" src="img/radar_graphs/The Weight - 2000 - Remaster_Recommended.png" alt="">
+                          </div>
+                          <div class="col-lg-2">
+                          </div>
+                          <div class="col-lg-5">
+                            <iframe src="https://open.spotify.com/embed/track/0sDqo9UPzPUtu9wEkI3zRB" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <div class="row no-gutters">
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".crimsonandclover">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/rec_album_cover/crimsonclover.jpg" alt="">
+              <!-- Modal - Crimson And Clover -->
+              <div class="modal fade crimsonandclover" id="CrimsonAndClover" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Crimson And Clover (1968)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Crimson And Clover_Recommended.png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/track/6FEKEO3y7QFcMwoGeR0GtU" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".littlehelp">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/rec_album_cover/withalittlehelpfrommyfriends.jpg" alt="">
+              <!-- Modal - With A Little Help From My Friends -->
+              <a class="modal fade littlehelp" id="LittleHelp" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">With A Little Help From My Friends (1969)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/With A Little Help From My Friends_Recommended.png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/track/1yOPFin76ojxOnecsV3v81" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".everybodystalkin">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/rec_album_cover/aerialballet.jpg" alt="">
+              <!-- Modal - Everybody's Talkin' -->
+              <div class="modal fade everybodystalkin" id="Everybodys_Talkin" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">Everybody's Talkin' (1969)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Everybody's Talkin'.png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/track/7CAhxeaTYXn1qWNRkZl9ad" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="portfolio-item" data-toggle="modal" data-target=".dream">
+              <span class="caption">
+              </span>
+              <img class="img-fluid" src="img/album_cover/rec_album_cover/wallsandbridges.jpg" alt="">
+              <!-- Modal - #9 Dream -->
+              <div class="modal fade dream" id="Dream" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <!-- Modal content-->
+                  <div class="modal-content" role='document'>
+                    <div class="modal-header">
+                      <h4 class="modal-title">#9 Dream (1974)</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <img class="left-block" src="img/radar_graphs/Dream.png" alt="">
+                        </div>
+                        <div class="col-lg-2">
+                        </div>
+                        <div class="col-lg-5">
+                          <iframe src="https://open.spotify.com/embed/track/4ZVWvCUwsOnIGmJMj71RkG" width="100%" height="100%" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        </div>
+        </div>
+      </div>
+      </section>
+
+    <!-- Rec TSNE -->
+    <section class="callout" id="rec_comparison">
+      <div class="container text-center">
+        <h2 class="mx-auto mb-5"><b>Where do the recommended songs fit in The Beatle's discography?</b></h2>
+        </br>
+          <p class="mb-0 text-black-50">Now you're asking the right questions! Let's replot our new data, including the recommended songs.
+          </br>
+          </br>
+          <p class="mb-0 text-black-50">Once again, you'll see a bunch of round dots, each representing a song. You can learn the song title by hovering.
+            There's an interactive legend on the right-hand side that will allow you to hide/show albums, just by clicking on the name!
+          </br>
+          </br>
+          <p class="mb-0 text-black-50">The Spotify album features have been <i><strong>normalized</strong></i>, which allows us to compare the relationship between different albums.
+            The distance between the tracks doesn't carry any significance, but tracks are most similar to other tracks that appear immediately around them.
+          </br>
+          </br>
+          <script
+              src="/Users/justin/Code/Beatles Webpage/startbootstrap-stylish-portfolio-gh-pages/beatles_scripts/beatles_rec_script.js"
+              id="002d6c89-10f5-4ed6-bde7-5375f386044a"
+              data-bokeh-model-id="f0dceeff-96bc-4140-ab31-d6f6aa29d828"
+              data-bokeh-doc-id="efa0ec3a-cc80-42ca-98c3-72c4d0d2620c"
+          ></script>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="content-section bg-primary text-black text-center" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="icon-envelope"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="#">jroth006@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="icon-social-github"></i>
+                <h4 class="text-uppercase m-0">Github</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="https://github.com/jroth006">My GitHub</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="icon-social-linkedin"></i>
+                <h4 class="text-uppercase m-0">LinkedIn</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="https://www.linkedin.com/in/justin-rothbart-2b1a4438/">Find me on LinkedIn!</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="content-section bg-primary text-white text-center">
+      <div class="container">
+        <p class="text-white-50 small mb-0">Thanks to Spotify and Bootstrap for making my life easier in my time of need!</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>

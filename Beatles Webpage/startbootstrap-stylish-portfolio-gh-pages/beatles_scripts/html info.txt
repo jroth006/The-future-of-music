@@ -1,0 +1,21 @@
+
+Original Bokeh
+
+<script
+    src="/Users/justin/Code/Beatles Webpage/startbootstrap-stylish-portfolio-gh-pages/beatles_scripts/beatles_rec_script.js"
+    id="5fe2457e-1c2f-4979-9f55-75db1f8a346d"
+    data-bokeh-model-id="3d583c8d-c902-486d-b774-64141f8b405f"
+    data-bokeh-doc-id="e84f9c5e-0117-4712-b308-ef80d507e145"
+></script>
+
+
+
+
+Recommended Bokeh
+
+<script
+    src="/Users/justin/Code/Beatles Webpage/startbootstrap-stylish-portfolio-gh-pages/beatles_scripts/beatles_rec_script.js"
+    id="5fe2457e-1c2f-4979-9f55-75db1f8a346d"
+    data-bokeh-model-id="3d583c8d-c902-486d-b774-64141f8b405f"
+    data-bokeh-doc-id="e84f9c5e-0117-4712-b308-ef80d507e145"
+></script>

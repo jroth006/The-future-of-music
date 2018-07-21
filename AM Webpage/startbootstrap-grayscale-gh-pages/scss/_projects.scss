@@ -1,0 +1,16 @@
+.projects-section {
+  padding: 4rem 0;
+  }
+  .project-text {
+    padding: 3rem;
+    font-size: 200%;
+    @media (min-width: 992px) {
+      padding: 5rem;
+      hr {
+        border-color: $primary;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+  }
+}
