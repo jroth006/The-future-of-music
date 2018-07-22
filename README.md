@@ -24,7 +24,7 @@ Storytelling is really important to me, and the music data that I worked with wa
 * **Matplotlib** for creating radar graphs.
 * **Bootstrap** templates for my web design.
 
-[Spotify API data descriptions can be found here:](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/)
+[Spotify API data descriptions can be found here](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/)
 
 ## Project Workflow
 The diagram below helps to explain the workflow for my project, along with highlighting how those elements were incorporated into my final product. The Spotify API provided all of the data for my project, so I invested a lot of time and effort into creating a repeatable workflow for pulling, cleaning, and transforming the data.
