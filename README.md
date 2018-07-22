@@ -29,18 +29,18 @@ Storytelling is really important to me, and the music data that I worked with wa
 ## Project Workflow
 The diagram below helps to explain the workflow for my project, along with highlighting how those elements were incorporated into my final product. The Spotify API provided all of the data for my project, so I invested a lot of time and effort into creating a repeatable workflow for pulling, cleaning, and transforming the data.
 
-![Alt text](Readme Img/Workflow.png "Project Workflow")
+![Alt text](readmeimg/Workflow.png "Project Workflow")
 
 ## Project Screenshots
 
 ## Album Features: Flipcard Example (A Fine Frenzy Webpage)
-![Alt text](Readme Img/Flipcards.png "Flipcard")
+![Alt text](readmeimg/Flipcards.png "Flipcard")
 
 ## Album Features: t-SNE (AM Webpage)
-![Alt text](Readme Img/t-SNE.png "t-SNE")
+![Alt text](readmeimg/t-SNE.png "t-SNE")
 
 ## Recommended Track Features: Modal Example (Beatles Webpage)
-![Alt text](Readme Img/Rec_Modal.png "Modal")
+![Alt text](readmeimg/Rec_Modal.png "Modal")
 
 ## Future Goals
 
