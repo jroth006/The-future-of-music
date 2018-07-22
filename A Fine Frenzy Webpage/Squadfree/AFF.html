@@ -54,6 +54,7 @@
           <li><a href="#service_1">Track Plot</a></li>
           <li><a href="#about_2">Recommended Tracks</a></li>
           <li><a href="#service_2">Recommended Track Plot</a></li>
+          <li><a href="#conclusions">Drawing Conclusions</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -91,11 +92,11 @@
     <div class="heading-about">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
+          <div class="col-lg-10 col-lg-offset-1">
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
-                <h2>Spotify API</h2>
-                <h4 class="text-black-50 mb-4">Spotify offers a lot of great data - everything from song length to the start and stop time of each measure.
+                <h2>Can we help guide artists towards a more popular sound within their current genre?</h2>
+                <h4 class="text-black-50 mb-4">Spotify offers a lot of great data through their API that can help us - everything from song length to the danceability of a song.
                   Here are a few important features to understand:<br /></h4>
                 <i class="fa fa-2x fa-angle-down"></i>
 
@@ -167,6 +168,8 @@
           </div>
         </div>
       </div>
+      </br>
+      <a href="https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/">Here's a direct link to the Spotify site for additional definitions</a>.</p>
     </div>
   </section>
   <!-- /Section: services -->
@@ -179,12 +182,12 @@
           <div class="col-lg-10 col-lg-offset-1">
             <div class="wow bounceInDown" data-wow-delay="0.4s">
               <div class="section-heading">
-                <h1>Albums</h1>
+                <h1>A Fine Fenzy's Albums</h1>
                 <i class="fa fa-2x fa-angle-down"></i>
                 <p class="text-black-50">Click on the album covers below to explore the song features for each album, along with
                   samples of each track displayed underneath.<br /></p>
                 </br>
-                <p class="text-black-50">It's interesting to see how similar <i>One Cell In The Sea</i> and <i>Bomb In A Birdcage</i>
+                <p class="text-black-50">Feel free to explore the sound and relationship between albums. It's interesting to see how similar <i>One Cell In The Sea</i> and <i>Bomb In A Birdcage</i>
                 were, but A Fine Frenzy really transformed their sound in <b>PINES</b>, producing a more acoustic sound, while
                   lowering the average energy and bar count.</p>
               </div>
@@ -294,7 +297,7 @@
                   There's an interactive legend on the right-hand side that will allow you to hide/show albums, just by clicking on the name!
                 </br>
                 <p class="mb-0 text-black-50">The Spotify album features have been <i><strong>normalized</strong></i>, which allows us to compare the relationship between different tracks and albums.
-                  The distance between the tracks doesn't carry any significance, or their location,
+                  The distance between the tracks doesn't carry any major significance, or their location,
                   <span style="text-decoration: underline;">but tracks are most similar to other tracks that appear immediately around them.</span>
                 </br>
                 <p class="text-black-50 mb-4">You can really see the distinct sound of <b>PINES</b> by hiding the other albums. The tracks are clustered together
@@ -335,10 +338,10 @@
                   <h4>What are some popular songs that fit with A Fine Frenzy's current discography?</h4>
                 </br>
                   <p class="text-black-50">Using the information from the Spotify API, we can start to project where their music is currently headed.
-                    After normalizing the recommendations and the original tracks, we can feed those numbers back into the Spotify API and collect popular songs that match A Fine Frenzy's projected sound,
+                    After normalizing the recommendations and the original tracks, we can feed those numbers back into the Spotify API and collect popular songs (popularity shown in parenthesis, with 100 being most popular) that match A Fine Frenzy's projected sound,
                     and start to get a feel for what sound they should focus on!</p>
                   </br>
-                  <p class="text-black-50">All of the recommended tracks have a high Acoustic score, indicating that A Fine Frenzy's current trajectory is a popular one. The bar count
+                  <p class="text-black-50">All of the recommended tracks have a high Acousticness value, indicating that A Fine Frenzy's current trajectory is a popular one. The bar count
                   of the most popular recommended tracks closely match A Fine Frenzy's <i>One Cell In The Sea</i> and <i>Bomb In A Birdcage</i> bar counts.</p>
                     </br>
                   <i class="fa fa-2x fa-angle-down"></i>
@@ -562,7 +565,6 @@
 
     <!-- Section: services -->
     <section id="service_2" class="home-section text-center bg-green">
-
       <div class="heading-about">
         <div class="container">
           <div class="row">
@@ -578,8 +580,8 @@
                   <p class="text-black-50">Once again, you'll see a bunch of round dots, each representing a song. You can learn the song title by hovering.
                     There's an interactive legend on the right-hand side that will allow you to hide/show albums, just by clicking on the name!
                   </br>
-                  <p class="text-black-50">Another reminder - the Spotify album features have been <i><strong>normalized</strong></i>, which allows us to compare the relationship between different albums.
-                    The distance between the tracks doesn't carry any significance, but tracks are most similar to other tracks that appear immediately around them.
+                  <p class="text-black-50">Another reminder - the Spotify album features have been <i><strong>normalized</strong></i>, which allows us to compare the relationship between A Fine Frenzy's tracks and the tracks recommended by our model and Spotify.
+                    The distance between the tracks doesn't carry any major significance, but tracks are most similar to other tracks that appear immediately around them.
                   </br>
                   </br>
                 </div>
@@ -603,21 +605,55 @@
     </section>
     <!-- /Section: services -->
 
+  <!-- Section: services -->
+  <section id="conclusions" class="home-section text-center">
+
+    <div class="heading-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1">
+            <div class="wow bounceInDown" data-wow-delay="0.4s">
+              <div class="section-heading">
+                <h2>Drawing Conclusions</h2>
+                <p class="text-black-50">As we saw in the previous graph, A Fine Frenzy is close to having a sound that is very similar to some of the more popular songs and
+                  artists in their genre.
+                </br>
+                </br>
+                  Focusing on averaging out features from their current discography, like danceability of <i>Happier</i> and the acousticness of <i>Riversong</i>, could benefit
+                 their popularity in the future. Take a listen below to see if you can imagine what that might sound like!</p>
+               </br>
+               </br>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="wow bounceInUp" data-wow-delay="0.7s">
+            <iframe src="https://open.spotify.com/embed/track/6U5WxUcdjsRs7vh6xxokaX" width="300" height="75" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="wow bounceInUp" data-wow-delay="0.8s">
+            <iframe src="https://open.spotify.com/embed/track/04yF4HOQUVKqd5YlQ9B6FV" width="300" height="75" frameborder="0" allowtransparency="true"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
   <!-- Section: contact -->
-  <section id="contact" class="home-section text-center">
+  <section id="contactus" class="home-section text-center">
     <div class="container">
       <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-4">
        	<ul class="company-social">
             <li class="social-github"><a href="https://github.com/jroth006" target="_blank"><i class="fa fa-github"></i></a></li>
             <li class="social-linkedin"><a href="https://www.linkedin.com/in/justin-rothbart-2b1a4438/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
             <li class="social-email"><a href="jroth006@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
         </ul>
       </div>
-    </div>
-    </div>
-      <div class="row">
-        <div class="col-md-12 col-lg-12">
+        <div class="col-md-4 col-lg-4">
           <div class="wow shake" data-wow-delay="0.4s">
             <div class="page-scroll marginbot-30">
               <a href="#intro" id="totop" class="btn btn-circle">
@@ -625,6 +661,9 @@
 						</a>
             </div>
           </div>
+        </div>
+        <div class="col-lg-4">
+        </div>
           <div class="credits">
             <!--
               All the links in the footer should remain intact.
