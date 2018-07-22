@@ -1,4 +1,4 @@
-##The Future of Music
+#The Future of Music
 
 ###Inspiration
 The overall idea behind my project is pretty simple: Can we predict the trajectory of a musical artist, given their current body of work? Can we also gain insight into popular artists in that predicted space, and use that information to recommend small adjustments to an artist’s sound?
