@@ -16,32 +16,31 @@ Radar graphs allowed me to visualize the features of each album and recommended 
 Storytelling is really important to me, and the music data that I worked with wasn’t well suited for a dashboard or individual graphs. I wanted to create multiple websites to showcase the story of my selected artists, and was able to use a combination of JavaScript, HTML and CSS (via Bootstrap) to bring the story to life in a vibrant and interactive way.
 
 ## Packages Used
-'''
-Spotipy for interacting with the Spotify API
-Pandas for general data handling
-Scikit-learn for LDA and t-SNE
-Bokeh for creating interactive t-SNE graphs via JavaScript
-Matplotlib for creating radar graphs
-Bootstrap templates for my web design
 
-Spotify API data descriptions can be found here: (https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/)
-'''
+**Spotipy** for interacting with the Spotify API
+**Pandas** for general data handling
+**Scikit-learn** for LDA and t-SNE
+**Bokeh** for creating interactive t-SNE graphs via JavaScript
+**Matplotlib** for creating radar graphs
+**Bootstrap** templates for my web design
+
+[Spotify API data descriptions can be found here:](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/)
 
 ## Project Workflow
 The diagram below helps to explain the workflow for my project, along with highlighting how those elements were incorporated into my final product. The Spotify API provided all of the data for my project, so I invested a lot of time and effort into creating a repeatable workflow for pulling, cleaning, and transforming the data.
 
-![Alt text](/Readme Img/Workflow.png?raw=true "Project Workflow")
+![Alt text](https://github.com/jroth006/The-future-of-music/tree/master/Readme%20Img/Workflow.png?raw=true "Project Workflow")
 
 ## Project Screenshots
 
 ## Album Features: Flipcard Example (A Fine Frenzy Webpage)
-![Alt text](/Readme Img/Flipcards.png?raw=true "Flipcard")
+![Alt text](https://github.com/jroth006/The-future-of-music/tree/master/Readme%20Img/Flipcards.png?raw=true "Flipcard")
 
 ## Album Features: t-SNE (AM Webpage)
-![Alt text](/Readme Img/t-SNE.png?raw=true "t-SNE")
+![Alt text](https://github.com/jroth006/The-future-of-music/tree/master/Readme%20Img/t-SNE.png?raw=true "t-SNE")
 
 ## Recommended Track Features: Modal Example (Beatles Webpage)
-![Alt text](/Readme Img/Rec_Modal.png?raw=true "Modal")
+![Alt text](https://github.com/jroth006/The-future-of-music/tree/master/Readme%20Img/Rec_Modal.png?raw=true "Modal")
 
 ## Future Goals
 
