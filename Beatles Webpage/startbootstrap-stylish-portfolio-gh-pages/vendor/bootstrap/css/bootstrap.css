@@ -5361,7 +5361,8 @@ button.close {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100%;
+  height: 90%;
+  width: auto;
   pointer-events: auto;
   background-color: #f8f9fa;
   background-clip: padding-box;
