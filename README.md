@@ -17,30 +17,30 @@ Storytelling is really important to me, and the music data that I worked with wa
 
 ## Packages Used
 
-**Spotipy** for interacting with the Spotify API
-**Pandas** for general data handling
-**Scikit-learn** for LDA and t-SNE
-**Bokeh** for creating interactive t-SNE graphs via JavaScript
-**Matplotlib** for creating radar graphs
-**Bootstrap** templates for my web design
+* **Spotipy** for interacting with the Spotify API.
+* **Pandas** for general data handling.
+* **Scikit-learn** for LDA and t-SNE.
+* **Bokeh** for creating interactive t-SNE graphs via JavaScript.
+* **Matplotlib** for creating radar graphs.
+* **Bootstrap** templates for my web design.
 
 [Spotify API data descriptions can be found here:](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/)
 
 ## Project Workflow
 The diagram below helps to explain the workflow for my project, along with highlighting how those elements were incorporated into my final product. The Spotify API provided all of the data for my project, so I invested a lot of time and effort into creating a repeatable workflow for pulling, cleaning, and transforming the data.
 
-![Alt text](https://github.com/jroth006/The-future-of-music/tree/master/Readme%20Img/Workflow.png?raw=true "Project Workflow")
+![Alt text](The-future-of-music/Readme Img//Workflow.png?raw=true "Project Workflow")
 
 ## Project Screenshots
 
 ## Album Features: Flipcard Example (A Fine Frenzy Webpage)
-![Alt text](https://github.com/jroth006/The-future-of-music/tree/master/Readme%20Img/Flipcards.png?raw=true "Flipcard")
+![Alt text](The-future-of-music/Readme Img/Flipcards.png?raw=true "Flipcard")
 
 ## Album Features: t-SNE (AM Webpage)
-![Alt text](https://github.com/jroth006/The-future-of-music/tree/master/Readme%20Img/t-SNE.png?raw=true "t-SNE")
+![Alt text](The-future-of-music/Readme Img/t-SNE.png?raw=true "t-SNE")
 
 ## Recommended Track Features: Modal Example (Beatles Webpage)
-![Alt text](https://github.com/jroth006/The-future-of-music/tree/master/Readme%20Img/Rec_Modal.png?raw=true "Modal")
+![Alt text](The-future-of-music/Readme Img/Rec_Modal.png?raw=true "Modal")
 
 ## Future Goals
 
