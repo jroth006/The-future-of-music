@@ -33,13 +33,13 @@ The diagram below helps to explain the workflow for my project, along with highl
 
 ## Project Screenshots
 
-## Album Features: Flipcard Example (A Fine Frenzy Webpage)
+### Album Features: Flipcard Example (A Fine Frenzy Webpage)
 ![Alt text](readmeimg/Flipcards.png "Flipcard")
 
-## Album Features: t-SNE (AM Webpage)
+### Album Features: t-SNE (AM Webpage)
 ![Alt text](readmeimg/t-SNE.png "t-SNE")
 
-## Recommended Track Features: Modal Example (Beatles Webpage)
+### Recommended Track Features: Modal Example (Beatles Webpage)
 ![Alt text](readmeimg/Rec_Modal.png "Modal")
 
 ## Future Goals
